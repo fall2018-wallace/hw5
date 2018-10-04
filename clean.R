@@ -1,5 +1,5 @@
 
-clean_data <- raw_data
+
 readStates<-function(states)
 {
     states<-states[-1,]
@@ -10,6 +10,6 @@ readStates<-function(states)
     return(states)
 }
 
-cleanCensus<-readStates(raw_data)
+clean_data<-readStates(raw_data)
 str(cleanCensus)
  
